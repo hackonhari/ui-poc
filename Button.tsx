@@ -5,7 +5,7 @@ interface Props {
   label: string;
 }
 
-export default function Button({ onClick, label }: Props): ReactElement {
+export function Button({ onClick, label }: Props): ReactElement {
   return (
     <button onClick={onClick} type="submit">
       {label}
